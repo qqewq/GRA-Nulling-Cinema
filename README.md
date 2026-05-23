@@ -1,5 +1,9 @@
-# GRA-Nulling-Cinema: Гениальное кино через обнуление высшей иерархии целей
+https://orcid.org/my-orcid?orcid=0009-0004-1872-1153
+https://doi.org/10.5281/zenodo.20352517
+--------------
 
+# GRA-Nulling-Cinema: Гениальное кино через обнуление высшей иерархии целей
+We formalize the concept of \textbf{GRA-nulling} --- a recursive process of annihilating the character's goal hierarchy, leading to cathartic purification in the audience. Exponential complexity of nulling underlies the masterpiece quality of classic films, whereas modern special-effects blockbusters lose this depth. Algebraic operations on nullings, synthesis in screenwriting and directing, and a practical algorithm for constructing a film as a sum of nullings with desired cathartic properties are proposed.
 Репозиторий содержит математический аппарат, теорию и практическое руководство по созданию фильмов, вызывающих глубокий катарсис (очищение) у зрителя. Метод основан на концепции **GRA-обнуленок** — рекурсивных операторов, аннигилирующих ложные цели и вскрывающих истинную природу персонажа.
 
 **Основные файлы:**
