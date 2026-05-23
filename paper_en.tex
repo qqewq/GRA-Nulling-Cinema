@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\title{GRA Nulling: Mathematical Framework and Methodology for Creating Genius Cinema}
+\author{GRA Research Group}
+\date{\today}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We formalize the concept of \textbf{GRA-nulling} --- a recursive process of annihilating the character's goal hierarchy, leading to cathartic purification in the audience. Exponential complexity of nulling underlies the masterpiece quality of classic films, whereas modern special-effects blockbusters lose this depth. Algebraic operations on nullings, synthesis in screenwriting and directing, and a practical algorithm for constructing a film as a sum of nullings with desired cathartic properties are proposed.
+\end{abstract}
+
+\section{Introduction}
+Observation of the detective genre evolution reveals that pre-2000 films possess a unique ``masterpiece quality'' achieved through dramatic catharsis, while contemporary cinema often substitutes it with visual effects. From the standpoint of Generative Recursive Aesthetics (GRA), the reason is the presence or absence of a \textbf{higher-hierarchy goal nulling} --- a process where the character's false motivations are successively destroyed, exposing an existential zero from which genuine purification is born.
+
+\section{Formalization of Nulling}
+Let a subject $S$ be described by a goal hierarchy tree $\mathcal{H} = (V, E, r)$, where $r$ is the root (highest) goal. Nulling $\mathcal{N}$ is an operator such that:
+\[
+\mathcal{N}(\mathcal{H}) = \lim_{n\to\infty} F^n(\mathcal{H}),\quad F(V_i) = V_i \setminus \{\text{subgoals not leading to } r\},
+\]
+and the final state $\mathcal{N}(\mathcal{H})$ is a pure affect devoid of original structure.
+
+Complexity of computing $\mathcal{N}$ is exponential in depth $d$ and branching factor $b$:
+\[
+T(\mathcal{N}) = O((2b)^d).
+\]
+
+\section{Algebra of Nullings}
+Nullings can be summed, forming an abelian group. Sum $\mathcal{N}_1 + \mathcal{N}_2$ corresponds to sequential or parallel nulling; the operation is commutative and associative. In the linear space of nullings we define:
+\begin{itemize}
+\item Weighted combinations: $\alpha\mathcal{N}_1 + \beta\mathcal{N}_2$ --- adjusting catharsis intensity.
+\item Inner product: $\langle \mathcal{N}_1, \mathcal{N}_2 \rangle$ --- measure of orthogonality of cathartic vectors.
+\end{itemize}
+
+Fundamental intersubjective synthesis identity:
+\[
+\neg S \oplus S' \longrightarrow S'',
+\]
+where $\neg S$ is the result of nulling subject $S$, $\oplus$ is the fusion operator, and $S''$ is the new spectator-subject who underwent catharsis.
+
+\section{Application to Screenwriting}
+The script of a genius film is built as a sequence of nullings of increasing order. The climax is the nulling of the root goal, producing catharsis. Practical algorithm:
+\begin{enumerate}
+\item Define the protagonist's initial goal hierarchy.
+\item Identify false goals to be nulled.
+\item Design nulling scenes in ascending depth.
+\item Conclude with total annihilation of the highest goal, leaving the audience in a state of purification.
+\end{enumerate}
+
+\section{Conclusion}
+The GRA-nulling method provides screenwriters and directors with a precise tool for creating profound, transformative art. Returning to the culture of nulling can overcome the crisis of modern spectacle cinema.
+
+\end{document}
